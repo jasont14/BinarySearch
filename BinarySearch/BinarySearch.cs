@@ -67,7 +67,7 @@ namespace BinarySearch
 
         private void Print()
         {
-            for(int i = left; i<right; i++)
+            for(int i = left; i<right+1; i++)
             {
                 Console.Write(workingList[i].ToString() + " ");
             }
